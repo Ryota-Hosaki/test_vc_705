@@ -1,0 +1,8 @@
+<header>
+	<h1 th:unless="${@account.name}">サンプルショッピング</h1>
+	<th:block th:if="${@account.name}">
+		<h1><a href="/items">サンプルショッピング</a></h1>
+		<span th:text="${@account.name}+' さんがログイン中'"></span>
+		<a href="/logout">ログアウト</a>
+	</th:block>
+</header>

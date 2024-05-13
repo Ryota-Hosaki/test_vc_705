@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a th:href="'/items/'+${item.id}">a</a>
+<a th:each="c:${categories}" th:href="@{/items(categoryId=${c.id})}">b</a>
+</body>
+</html>

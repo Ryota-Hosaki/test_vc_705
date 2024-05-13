@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+ /* 全体 */
+ body {
+	 background-color: #EFF0F7;
+	 text-align: center;
+	 min-width: 900px;
+ }
+  /* ヘッダー、ナビゲーションメニュー、フッター */
+  header, nav, footer {
+	  background-color: #45496a;
+	 color:#ffffff;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+  }
+  /* ヘッダー、ナビゲーション内リンク */
+  header a, nav a {
+	  color: #ffffff;
+  }
+  /* ヘッダー内見出し */
+  header h1 {
+	  font-size: 20px;
+	  margin: 10px auto;
+  }
+  /* 仕切り線 */
+  hr {
+	  border-top: 2px dashed #7d8bae;
+  }
+  /* メイン */
+  main {
+	  background-color: #FFFFFF;
+	  min-height: 50px;
+	  padding: 20px;
+  }
+  /* 表線 */
+  table, th, td {
+	  border-collapse: collapse;
+	  border: 1px solid #7d8bae;
+  }
+  /* 表 */
+  table {
+	  margin: 5px auto;
+	  min-width: 800px;
+  }
+  /* 表見出しセル */
+  table th {
+	  background: #7d8bae;
+	  color: #ffffff;
+  }
+  /* 送信ボタン */
+  button {
+	  margin: 2px;
+	  padding: 5px 20px;
+	  background-color: #e5857b;
+	  color: #ffffff;
+	  border: none;
+	  width: 150px;
+	  cursor: pointer;
+  }
+  /* 送信ボタン（マウスオーバー時） */
+  button:hover {
+	  background-color: #f1b2b2;
+  }
